@@ -10,3 +10,4 @@ C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DTO\obj\Debug\net8.0\APIANDROI
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DTO\obj\Debug\net8.0\refint\APIANDROID_DTO.dll
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DTO\obj\Debug\net8.0\APIANDROID_DTO.pdb
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DTO\obj\Debug\net8.0\ref\APIANDROID_DTO.dll
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DTO\obj\Debug\net8.0\APIANDROID_DTO.sourcelink.json

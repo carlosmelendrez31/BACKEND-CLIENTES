@@ -54,3 +54,4 @@ C:\Users\carlo\source\repos\APIANDROID\APIANDROID\obj\Debug\net8.0\refint\APIAND
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID\obj\Debug\net8.0\APIANDROID.pdb
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID\obj\Debug\net8.0\APIANDROID.genruntimeconfig.cache
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID\obj\Debug\net8.0\ref\APIANDROID.dll
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID\obj\Debug\net8.0\APIANDROID.sourcelink.json

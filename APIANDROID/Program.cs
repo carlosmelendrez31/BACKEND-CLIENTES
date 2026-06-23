@@ -3,6 +3,15 @@ using APIANDROID_DATA.Services;
 using DbConnection = APIANDROID_DATA.DbConnection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 // Services
 builder.Services.AddControllers();
@@ -13,12 +22,10 @@ builder.Services.AddScoped<IClienteService, ClienteService>();
 
 var app = builder.Build(); // <-- Build siempre al final de los services
 
-// Pipeline
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

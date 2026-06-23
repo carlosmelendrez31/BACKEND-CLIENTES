@@ -10,3 +10,4 @@ C:\Users\carlo\source\repos\APIANDROID\APIANDROID_MODEL\obj\Debug\net8.0\APIANDR
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID_MODEL\obj\Debug\net8.0\refint\APIANDROID_MODEL.dll
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID_MODEL\obj\Debug\net8.0\APIANDROID_MODEL.pdb
 C:\Users\carlo\source\repos\APIANDROID\APIANDROID_MODEL\obj\Debug\net8.0\ref\APIANDROID_MODEL.dll
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_MODEL\obj\Debug\net8.0\APIANDROID_MODEL.sourcelink.json
