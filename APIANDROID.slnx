@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="APIANDROID/APIANDROID.csproj" />
+  <Project Path="APIANDROID_DATA/APIANDROID_DATA.csproj" />
+  <Project Path="APIANDROID_DTO/APIANDROID_DTO.csproj" />
+  <Project Path="APIANDROID_MODEL/APIANDROID_MODEL.csproj" />
+</Solution>

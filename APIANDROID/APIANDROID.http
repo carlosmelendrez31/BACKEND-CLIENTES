@@ -1,0 +1,6 @@
+@APIANDROID_HostAddress = http://localhost:5042
+
+GET {{APIANDROID_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

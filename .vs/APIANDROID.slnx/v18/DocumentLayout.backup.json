@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDFCF07-F337-40C9-9ED0-28BF52AA6A70}|APIANDROID\\APIANDROID.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDFCF07-F337-40C9-9ED0-28BF52AA6A70}|APIANDROID\\APIANDROID.csproj|solutionrelative:apiandroid\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F821DDE-6735-4DF9-9D7F-5E7002E82F61}|APIANDROID_DATA\\APIANDROID_DATA.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_data\\service\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F821DDE-6735-4DF9-9D7F-5E7002E82F61}|APIANDROID_DATA\\APIANDROID_DATA.csproj|solutionrelative:apiandroid_data\\service\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F821DDE-6735-4DF9-9D7F-5E7002E82F61}|APIANDROID_DATA\\APIANDROID_DATA.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_data\\interface\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F821DDE-6735-4DF9-9D7F-5E7002E82F61}|APIANDROID_DATA\\APIANDROID_DATA.csproj|solutionrelative:apiandroid_data\\interface\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C69D94-03D9-4F39-AE91-0CFA2AB708D7}|APIANDROID_DTO\\APIANDROID_DTO.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_dto\\clientesdto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C69D94-03D9-4F39-AE91-0CFA2AB708D7}|APIANDROID_DTO\\APIANDROID_DTO.csproj|solutionrelative:apiandroid_dto\\clientesdto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDFCF07-F337-40C9-9ED0-28BF52AA6A70}|APIANDROID\\APIANDROID.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CDFCF07-F337-40C9-9ED0-28BF52AA6A70}|APIANDROID\\APIANDROID.csproj|solutionrelative:apiandroid\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDFCF07-F337-40C9-9ED0-28BF52AA6A70}|APIANDROID\\APIANDROID.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDFCF07-F337-40C9-9ED0-28BF52AA6A70}|APIANDROID\\APIANDROID.csproj|solutionrelative:apiandroid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C69D94-03D9-4F39-AE91-0CFA2AB708D7}|APIANDROID_DTO\\APIANDROID_DTO.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_dto\\clientesdto\\crearclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C69D94-03D9-4F39-AE91-0CFA2AB708D7}|APIANDROID_DTO\\APIANDROID_DTO.csproj|solutionrelative:apiandroid_dto\\clientesdto\\crearclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F821DDE-6735-4DF9-9D7F-5E7002E82F61}|APIANDROID_DATA\\APIANDROID_DATA.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_data\\apiandroid_data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F821DDE-6735-4DF9-9D7F-5E7002E82F61}|APIANDROID_DATA\\APIANDROID_DATA.csproj|solutionrelative:apiandroid_data\\apiandroid_data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F821DDE-6735-4DF9-9D7F-5E7002E82F61}|APIANDROID_DATA\\APIANDROID_DATA.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F821DDE-6735-4DF9-9D7F-5E7002E82F61}|APIANDROID_DATA\\APIANDROID_DATA.csproj|solutionrelative:apiandroid_data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C69D94-03D9-4F39-AE91-0CFA2AB708D7}|APIANDROID_DTO\\APIANDROID_DTO.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_dto\\logindto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C69D94-03D9-4F39-AE91-0CFA2AB708D7}|APIANDROID_DTO\\APIANDROID_DTO.csproj|solutionrelative:apiandroid_dto\\logindto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C69D94-03D9-4F39-AE91-0CFA2AB708D7}|APIANDROID_DTO\\APIANDROID_DTO.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_dto\\logindto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C69D94-03D9-4F39-AE91-0CFA2AB708D7}|APIANDROID_DTO\\APIANDROID_DTO.csproj|solutionrelative:apiandroid_dto\\logindto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B88FF874-6334-4FBA-98EE-736161327EF8}|APIANDROID_MODEL\\APIANDROID_MODEL.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_model\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B88FF874-6334-4FBA-98EE-736161327EF8}|APIANDROID_MODEL\\APIANDROID_MODEL.csproj|solutionrelative:apiandroid_model\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B88FF874-6334-4FBA-98EE-736161327EF8}|APIANDROID_MODEL\\APIANDROID_MODEL.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_model\\apiandroid_model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B88FF874-6334-4FBA-98EE-736161327EF8}|APIANDROID_MODEL\\APIANDROID_MODEL.csproj|solutionrelative:apiandroid_model\\apiandroid_model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B88FF874-6334-4FBA-98EE-736161327EF8}|APIANDROID_MODEL\\APIANDROID_MODEL.csproj|c:\\users\\carlo\\source\\repos\\apiandroid\\apiandroid_model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B88FF874-6334-4FBA-98EE-736161327EF8}|APIANDROID_MODEL\\APIANDROID_MODEL.csproj|solutionrelative:apiandroid_model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DTO\\CLIENTESDTO\\ClienteDto.cs",
+              "RelativeDocumentMoniker": "APIANDROID_DTO\\CLIENTESDTO\\ClienteDto.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DTO\\CLIENTESDTO\\ClienteDto.cs",
+              "RelativeToolTip": "APIANDROID_DTO\\CLIENTESDTO\\ClienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:18:08.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID\\appsettings.json",
+              "RelativeDocumentMoniker": "APIANDROID\\appsettings.json",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID\\appsettings.json",
+              "RelativeToolTip": "APIANDROID\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-23T04:04:45.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "APIANDROID\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "APIANDROID\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T03:50:51.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "APIANDROID_MODEL",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_MODEL\\APIANDROID_MODEL.csproj",
+              "RelativeDocumentMoniker": "APIANDROID_MODEL\\APIANDROID_MODEL.csproj",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_MODEL\\APIANDROID_MODEL.csproj",
+              "RelativeToolTip": "APIANDROID_MODEL\\APIANDROID_MODEL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-19T17:46:33.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID\\Program.cs",
+              "RelativeDocumentMoniker": "APIANDROID\\Program.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID\\Program.cs",
+              "RelativeToolTip": "APIANDROID\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T03:37:30.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DATA\\DbConnection.cs",
+              "RelativeDocumentMoniker": "APIANDROID_DATA\\DbConnection.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DATA\\DbConnection.cs",
+              "RelativeToolTip": "APIANDROID_DATA\\DbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T03:36:15.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DATA\\Service\\ClienteService.cs",
+              "RelativeDocumentMoniker": "APIANDROID_DATA\\Service\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DATA\\Service\\ClienteService.cs",
+              "RelativeToolTip": "APIANDROID_DATA\\Service\\ClienteService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T17:53:47.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Logindto.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DTO\\LoginDTO\\Logindto.cs",
+              "RelativeDocumentMoniker": "APIANDROID_DTO\\LoginDTO\\Logindto.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DTO\\LoginDTO\\Logindto.cs",
+              "RelativeToolTip": "APIANDROID_DTO\\LoginDTO\\Logindto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T17:52:39.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DATA\\Interface\\IClienteService.cs",
+              "RelativeDocumentMoniker": "APIANDROID_DATA\\Interface\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DATA\\Interface\\IClienteService.cs",
+              "RelativeToolTip": "APIANDROID_DATA\\Interface\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T17:51:03.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DTO\\LoginDTO\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "APIANDROID_DTO\\LoginDTO\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DTO\\LoginDTO\\AuthResponse.cs",
+              "RelativeToolTip": "APIANDROID_DTO\\LoginDTO\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T17:49:25.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrearClienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DTO\\CLIENTESDTO\\CrearClienteDto.cs",
+              "RelativeDocumentMoniker": "APIANDROID_DTO\\CLIENTESDTO\\CrearClienteDto.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DTO\\CLIENTESDTO\\CrearClienteDto.cs",
+              "RelativeToolTip": "APIANDROID_DTO\\CLIENTESDTO\\CrearClienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T17:48:53.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_MODEL\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "APIANDROID_MODEL\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_MODEL\\ClienteModel.cs",
+              "RelativeToolTip": "APIANDROID_MODEL\\ClienteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T17:47:00.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "APIANDROID_DATA",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DATA\\APIANDROID_DATA.csproj",
+              "RelativeDocumentMoniker": "APIANDROID_DATA\\APIANDROID_DATA.csproj",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_DATA\\APIANDROID_DATA.csproj",
+              "RelativeToolTip": "APIANDROID_DATA\\APIANDROID_DATA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-19T17:22:22.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_MODEL\\Class1.cs",
+              "RelativeDocumentMoniker": "APIANDROID_MODEL\\Class1.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\APIANDROID\\APIANDROID_MODEL\\Class1.cs",
+              "RelativeToolTip": "APIANDROID_MODEL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T17:21:00.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

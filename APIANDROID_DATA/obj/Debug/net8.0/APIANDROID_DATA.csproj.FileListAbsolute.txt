@@ -1,0 +1,17 @@
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\bin\Debug\net8.0\APIANDROID_DATA.deps.json
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\bin\Debug\net8.0\APIANDROID_DATA.dll
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\bin\Debug\net8.0\APIANDROID_DATA.pdb
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\bin\Debug\net8.0\APIANDROID_DTO.dll
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\bin\Debug\net8.0\APIANDROID_MODEL.dll
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\bin\Debug\net8.0\APIANDROID_DTO.pdb
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\bin\Debug\net8.0\APIANDROID_MODEL.pdb
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\APIANDROID_DATA.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\APIANDROID_DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\APIANDROID_DATA.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\APIANDROID_DATA.AssemblyInfo.cs
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\APIANDROID_DATA.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\APIANDRO.3725BA3D.Up2Date
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\APIANDROID_DATA.dll
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\refint\APIANDROID_DATA.dll
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\APIANDROID_DATA.pdb
+C:\Users\carlo\source\repos\APIANDROID\APIANDROID_DATA\obj\Debug\net8.0\ref\APIANDROID_DATA.dll
