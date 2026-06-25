@@ -29,18 +29,7 @@ namespace APIANDROID_DATA
             _config = config;
         }
 
-        public async Task<bool> CrearClienteAsync(CrearClienteDto dto)
-        {
-            using var con = _db.CreateConnection();
 
-            var hash = BC.HashPassword(dto.Contrasena);
-
-            var resultado = await con.QueryFirstOrDefaultAsync(
-                "SELECT * FROM crear_cliente(@Correo, @Hash)",
-                new { Correo = dto.Correo, Hash = hash });
-
-            return resultado?.exito ?? false;
-        }
 
         public async Task<AuthResponseDto?> LoginAsync(Logindto dto)
         {
@@ -87,12 +76,44 @@ namespace APIANDROID_DATA
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
+
+
         public async Task<IEnumerable<ClienteDto>> ObtenerClientesAsync()
         {
             using var con = _db.CreateConnection();
+            return await con.QueryAsync<ClienteDto>("SELECT * FROM obtener_clientes()");
+        }
 
-            return await con.QueryAsync<ClienteDto>(
-                "SELECT * FROM obtener_clientes()");
+        public async Task<ClienteDto?> ObtenerClientePorIdAsync(int id)
+        {
+            using var con = _db.CreateConnection();
+            return await con.QueryFirstOrDefaultAsync<ClienteDto>(
+                "SELECT * FROM obtener_cliente_por_id(@Id)", new { Id = id });
+        }
+
+        public async Task<bool> CrearClienteAsync(CrearClienteDto dto)
+        {
+            using var con = _db.CreateConnection();
+            var hash = BC.HashPassword(dto.Contrasena);
+            var resultado = await con.QueryFirstOrDefaultAsync(
+                "SELECT * FROM crear_cliente(@Correo, @Hash, @Nombre, @Edad, @FechaNacimiento)",
+                new { dto.Correo, Hash = hash, dto.Nombre, dto.Edad, dto.FechaNacimiento });
+            return resultado?.exito ?? false;
+        }
+
+        public async Task<bool> ActualizarClienteAsync(int id, Actualizardto dto)
+        {
+            using var con = _db.CreateConnection();
+            return await con.ExecuteScalarAsync<bool>(
+                "SELECT actualizar_cliente(@Id, @Nombre, @Edad, @FechaNacimiento)",
+                new { Id = id, dto.Nombre, dto.Edad, dto.FechaNacimiento });
+        }
+
+        public async Task<bool> EliminarClienteAsync(int id)
+        {
+            using var con = _db.CreateConnection();
+            return await con.ExecuteScalarAsync<bool>(
+                "SELECT eliminar_cliente(@Id)", new { Id = id });
         }
     }
 }
