@@ -9,6 +9,18 @@ using Microsoft.AspNetCore.Mvc;
 public class ClienteController : ControllerBase
 {
     private readonly IClienteService _service;
+   
+
+    [HttpPost("login")]
+    public async Task<IActionResult> Login([FromBody] Logindto dto)
+    {
+        var resultado = await _service.LoginAsync(dto);
+
+        if (resultado == null)
+            return Unauthorized(new { mensaje = "Correo o contraseña incorrectos." });
+
+        return Ok(resultado);
+    }
 
     public ClienteController(IClienteService service)
     {
