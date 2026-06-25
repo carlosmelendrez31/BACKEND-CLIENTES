@@ -94,10 +94,10 @@ namespace APIANDROID_DATA
         public async Task<bool> CrearClienteAsync(CrearClienteDto dto)
         {
             using var con = _db.CreateConnection();
-            var hash = BC.HashPassword(dto.Contrasena);
+           
             var resultado = await con.QueryFirstOrDefaultAsync(
-                "SELECT * FROM crear_cliente(@Correo, @Hash, @Nombre, @Edad, @FechaNacimiento)",
-                new { dto.Correo, Hash = hash, dto.Nombre, dto.Edad, dto.FechaNacimiento });
+                "SELECT * FROM crear_clientes(@Nombre, @Edad, @FechaNacimiento)",
+                new {dto.Nombre, dto.Edad, dto.FechaNacimiento });
             return resultado?.exito ?? false;
         }
 
