@@ -95,6 +95,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "APIANDROID.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APIANDROID_DTO.LoginDTO.Logindto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIANDROID.Controllers.UsuarioController",
+    "Method": "Registro",
+    "RelativePath": "api/Usuario/registro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APIANDROID_DTO.Crearusuariodto.CrearUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "APIANDROID.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

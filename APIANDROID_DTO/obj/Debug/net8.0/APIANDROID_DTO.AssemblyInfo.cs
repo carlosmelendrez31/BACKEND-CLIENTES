@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIANDROID_DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48023a978c703a7c06c114e9d2b86a241ba873bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86964f99cbac625d0155ba788b1907f22645526a")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIANDROID_DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIANDROID_DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
