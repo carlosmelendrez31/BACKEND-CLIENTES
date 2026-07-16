@@ -8,7 +8,13 @@ namespace APIANDROID_DTO.LoginDTO
 {
     public class AuthResponseDto
     {
-        public string Token { get; set; } = string.Empty;
-        public string Correo { get; set; } = string.Empty;
-    }
+    
+            public string Token { get; set; } = "";
+
+            public string Correo { get; set; } = "";
+
+            public string Rol { get; set; } = "";
+        }
+
+    
 }

@@ -51,13 +51,23 @@ namespace APIANDROID_DATA.Service
                 "SELECT * FROM login_usuario(@Correo)",
                 new { Correo = dto.Correo });
 
-            if (usuario == null) return null;
+            if (usuario == null)
+                return null;
 
-            bool valido = BC.Verify(dto.Contrasena, usuario.Contrasena);
-            if (!valido) return null;
+            bool valido =
+                BC.Verify(dto.Contrasena, usuario.Contrasena);
+
+            if (!valido)
+                return null;
 
             var token = GenerarToken(usuario);
-            return new AuthResponseDto { Token = token, Correo = usuario.Correo };
+
+            return new AuthResponseDto
+            {
+                Token = token,
+                Correo = usuario.Correo,
+                Rol = usuario.Rol
+            };
         }
 
         private string GenerarToken(Usuario usuario)
@@ -65,13 +75,24 @@ namespace APIANDROID_DATA.Service
             var key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
 
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var creds = new SigningCredentials(
+                key,
+                SecurityAlgorithms.HmacSha256);
 
             var claims = new[]
             {
-            new Claim(ClaimTypes.Email, usuario.Correo),
-            new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString())
-        };
+        new Claim(ClaimTypes.Email, usuario.Correo),
+
+        new Claim(
+            ClaimTypes.NameIdentifier,
+            usuario.Id.ToString()
+        ),
+
+        new Claim(
+            ClaimTypes.Role,
+            usuario.Rol
+        )
+    };
 
             var token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],
@@ -80,7 +101,8 @@ namespace APIANDROID_DATA.Service
                 expires: DateTime.UtcNow.AddHours(8),
                 signingCredentials: creds);
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            return new JwtSecurityTokenHandler()
+                .WriteToken(token);
         }
     }
 }
