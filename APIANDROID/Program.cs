@@ -23,6 +23,7 @@ builder.Services.AddSingleton<DbConnection>();
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<IProductoService, ProductoService>();
+builder.Services.AddScoped<IPedidoService,PedidoService>();
 
 var app = builder.Build(); // <-- Build siempre al final de los services
 

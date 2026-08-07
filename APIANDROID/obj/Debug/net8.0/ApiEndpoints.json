@@ -191,8 +191,24 @@
   },
   {
     "ContainingType": "APIANDROID.Controllers.UsuarioController",
-    "Method": "Registro",
-    "RelativePath": "api/Usuario/registro",
+    "Method": "RegistrarAdmin",
+    "RelativePath": "api/Usuario/registro/admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APIANDROID_DTO.Crearusuariodto.CrearUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIANDROID.Controllers.UsuarioController",
+    "Method": "RegistrarCliente",
+    "RelativePath": "api/Usuario/registro/cliente",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

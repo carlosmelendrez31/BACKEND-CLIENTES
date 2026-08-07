@@ -1,6 +1,7 @@
 ﻿using APIANDROID_DTO.CLIENTESDTO;
 using APIANDROID_DTO.Crearusuariodto;
 using APIANDROID_DTO.LoginDTO;
+using APIANDROID_MODEL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,14 @@ namespace APIANDROID_DATA.Interface
     // Interfaces/IUsuarioService.cs
     public interface IUsuarioService
     {
+        Task<ResultadoRegistroUsuario> CrearClienteAsync(
+    CrearUsuarioDto dto
+);
+
+        Task<ResultadoRegistroUsuario> CrearAdminAsync(
+            CrearUsuarioDto dto
+        );
+
         Task<AuthResponseDto?> LoginAsync(Logindto dto);
         Task<bool> CrearUsuarioAsync(CrearUsuarioDto dto);
     }

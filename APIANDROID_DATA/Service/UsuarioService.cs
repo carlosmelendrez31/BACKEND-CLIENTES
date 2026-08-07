@@ -104,5 +104,90 @@ namespace APIANDROID_DATA.Service
             return new JwtSecurityTokenHandler()
                 .WriteToken(token);
         }
+    
+
+    public async Task<ResultadoRegistroUsuario> CrearClienteAsync(
+    CrearUsuarioDto dto
+)
+        {
+            using var con = _db.CreateConnection();
+
+            var hash = BC.HashPassword(dto.Contrasena);
+
+            const string sql = """
+        SELECT
+            id_usuario,
+            correo,
+            rol,
+            mensaje,
+            exito
+        FROM public.crear_cliente
+        (
+            @p_correo,
+            @p_contrasena
+        );
+        """;
+
+            var resultado =
+                await con.QueryFirstOrDefaultAsync<ResultadoRegistroUsuario>(
+                    sql,
+                    new
+                    {
+                        p_correo = dto.Correo,
+                        p_contrasena = hash
+                    }
+                );
+
+            return resultado ?? new ResultadoRegistroUsuario
+            {
+                id_usuario = 0,
+                correo = dto.Correo,
+                rol = "cliente",
+                mensaje = "No se obtuvo respuesta al registrar el cliente.",
+                exito = false
+            };
+        }
+
+        public async Task<ResultadoRegistroUsuario> CrearAdminAsync(
+            CrearUsuarioDto dto
+        )
+        {
+            using var con = _db.CreateConnection();
+
+            var hash = BC.HashPassword(dto.Contrasena);
+
+            const string sql = """
+        SELECT
+            id_usuario,
+            correo,
+            rol,
+            mensaje,
+            exito
+        FROM public.crear_admin
+        (
+            @p_correo,
+            @p_contrasena
+        );
+        """;
+
+            var resultado =
+                await con.QueryFirstOrDefaultAsync<ResultadoRegistroUsuario>(
+                    sql,
+                    new
+                    {
+                        p_correo = dto.Correo,
+                        p_contrasena = hash
+                    }
+                );
+
+            return resultado ?? new ResultadoRegistroUsuario
+            {
+                id_usuario = 0,
+                correo = dto.Correo,
+                rol = "admin",
+                mensaje = "No se obtuvo respuesta al registrar el administrador.",
+                exito = false
+            };
+              }
+        }
     }
-}
