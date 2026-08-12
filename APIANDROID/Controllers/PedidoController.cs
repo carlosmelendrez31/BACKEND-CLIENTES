@@ -271,5 +271,45 @@ namespace APIANDROID.Controllers
                 });
             }
         }
+        [HttpGet("wear/{idUsuario:int}")]
+        public async Task<IActionResult> ObtenerPedidoWear(
+    int idUsuario
+)
+        {
+            if (idUsuario <= 0)
+            {
+                return BadRequest(new
+                {
+                    mensaje = "ID de usuario no válido."
+                });
+            }
+
+            try
+            {
+                var pedido =
+                    await _pedidoService
+                        .ObtenerPedidoWearAsync(idUsuario);
+
+                if (pedido == null)
+                {
+                    return NotFound(new
+                    {
+                        mensaje =
+                            "El usuario no tiene pedidos activos."
+                    });
+                }
+
+                return Ok(pedido);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    mensaje =
+                        "Error al consultar el pedido para Wear OS.",
+                    error = ex.Message
+                });
+            }
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using APIANDROID_DTO.Pedidos;
 using APIANDROID_MODEL;
+using APIANDROID_MODEL.APIANDROID_MODEL;
 
 namespace APIANDROID_DATA.Interface
 {
@@ -27,5 +28,9 @@ namespace APIANDROID_DATA.Interface
             int idPedido,
             CambiarEstadoPedidoDto dto
         );
+
+        Task<PedidoWear?> ObtenerPedidoWearAsync(
+    int idUsuario
+);
     }
 }

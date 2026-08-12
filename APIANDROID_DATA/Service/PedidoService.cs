@@ -1,8 +1,9 @@
-﻿using System.Text.Json;
-using APIANDROID_DATA.Interface;
+﻿using APIANDROID_DATA.Interface;
 using APIANDROID_DTO.Pedidos;
 using APIANDROID_MODEL;
+using APIANDROID_MODEL.APIANDROID_MODEL;
 using Dapper;
+using System.Text.Json;
 
 namespace APIANDROID_DATA.Service
 {
@@ -214,6 +215,34 @@ namespace APIANDROID_DATA.Service
                     "No se obtuvo respuesta al cambiar el estado.",
                 exito = false
             };
+        }
+
+        public async Task<PedidoWear?> ObtenerPedidoWearAsync(
+        int idUsuario
+    )
+        {
+            using var con = _db.CreateConnection();
+
+            const string sql = """
+        SELECT
+            id_pedido,
+            estado,
+            total,
+            fecha_pedido,
+            productos::TEXT AS productos_json
+
+        FROM public.obtener_pedido_actual_wear(
+            @p_id_usuario
+        );
+        """;
+
+            return await con.QueryFirstOrDefaultAsync<PedidoWear>(
+                sql,
+                new
+                {
+                    p_id_usuario = idUsuario
+                }
+            );
         }
     }
 }
