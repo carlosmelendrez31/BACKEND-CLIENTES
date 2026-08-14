@@ -23,5 +23,10 @@ namespace APIANDROID_DATA.Interface
 
         Task<AuthResponseDto?> LoginAsync(Logindto dto);
         Task<bool> CrearUsuarioAsync(CrearUsuarioDto dto);
+
+        Task<ResultadoActualizarUsuario> ActualizarUsuarioAsync(int id, ActualizarUsuarioDto dto);
+        Task<ResultadoEliminarUsuario> EliminarUsuarioAsync(int id);
+        Task<List<UsuarioDto>> ObtenerUsuariosAsync();
+
     }
 }

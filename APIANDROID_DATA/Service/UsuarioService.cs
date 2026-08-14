@@ -188,6 +188,102 @@ namespace APIANDROID_DATA.Service
                 mensaje = "No se obtuvo respuesta al registrar el administrador.",
                 exito = false
             };
-              }
         }
+        public async Task<ResultadoActualizarUsuario> ActualizarUsuarioAsync(
+    int id,
+    ActualizarUsuarioDto dto
+)
+        {
+            using var con = _db.CreateConnection();
+
+            string? hash = string.IsNullOrWhiteSpace(dto.Contrasena)
+                ? null
+                : BC.HashPassword(dto.Contrasena);
+
+            const string sql = """
+        SELECT
+            id_usuario,
+            correo,
+            rol,
+            mensaje,
+            exito
+        FROM public.actualizar_usuario
+        (
+            @p_id_usuario,
+            @p_correo,
+            @p_contrasena,
+            @p_rol
+        );
+        """;
+
+            var resultado = await con.QueryFirstOrDefaultAsync<ResultadoActualizarUsuario>(
+                sql,
+                new
+                {
+                    p_id_usuario = id,
+                    p_correo = dto.Correo,
+                    p_contrasena = hash,
+                    p_rol = dto.Rol
+                }
+            );
+
+            return resultado ?? new ResultadoActualizarUsuario
+            {
+                id_usuario = id,
+                correo = dto.Correo,
+                rol = dto.Rol,
+                mensaje = "No se obtuvo respuesta al actualizar el usuario.",
+                exito = false
+            };
+        }
+
+        public async Task<ResultadoEliminarUsuario> EliminarUsuarioAsync(int id)
+        {
+            using var con = _db.CreateConnection();
+
+            const string sql = """
+        SELECT
+            mensaje,
+            exito
+        FROM public.eliminar_usuario(@p_id_usuario);
+        """;
+
+            var resultado = await con.QueryFirstOrDefaultAsync<ResultadoEliminarUsuario>(
+                sql,
+                new { p_id_usuario = id }
+            );
+
+            return resultado ?? new ResultadoEliminarUsuario
+            {
+                mensaje = "No se obtuvo respuesta al eliminar el usuario.",
+                exito = false
+            };
+        }
+
+        public async Task<List<UsuarioDto>> ObtenerUsuariosAsync()
+        {
+            using var con = _db.CreateConnection();
+
+            const string sql = """
+        SELECT
+            id_usuario,
+            correo,
+            rol
+        FROM public.obtener_usuarios();
+        """;
+
+            var filas = await con.QueryAsync<UsuarioListadoRow>(sql);
+
+            return filas
+                .Select(f => new UsuarioDto
+                {
+                    Id = f.id_usuario,
+                    Correo = f.correo,
+                    Rol = f.rol
+                })
+                .ToList();
+        }
+
+
     }
+}
